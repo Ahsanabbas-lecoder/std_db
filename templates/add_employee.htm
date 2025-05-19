@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Employee</title>
+</head>
+<body>
+    <h1>Add New Employee</h1>
+    <form method="POST" action="/add_employee">
+        <label>Name: <input type="text" name="name" required></label><br>
+        <label>Email: <input type="email" name="email" required></label><br>
+        <label>Emp No: <input type="number" name="emp_no"></label><br>
+        <label>Age: <input type="number" name="age"></label><br>
+        <button type="submit">Save</button>
+    </form>
+    <a href="/employees">Back to List</a>
+</body>
+</html>
